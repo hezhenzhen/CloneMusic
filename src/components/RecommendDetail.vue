@@ -97,7 +97,7 @@ export default{
   },
   methods: {
     rowClassName (row, index) {
-      if (index == this.curIndex) {
+      if (index === this.curIndex) {
         return 'highlight'
       }
     },
